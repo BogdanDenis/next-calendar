@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 
-import { Calendar } from '@/components';
+import { Calendar } from '@/features';
 
 const HomePage = () => {
   return (
