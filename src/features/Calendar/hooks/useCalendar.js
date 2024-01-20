@@ -1,12 +1,13 @@
-import { useCallback, useState } from 'react';
+import {
+  useCallback,
+  useState,
+} from 'react';
 import moment from 'moment';
 
 import {
   CALENDAR_FORMATS,
   DAYS_PER_WEEK,
 } from '../constants';
-
-
 
 export const useCalendar = ({ weeks, viewedDate }) => {
   const [currentDate, setCurrentDate] = useState(viewedDate);

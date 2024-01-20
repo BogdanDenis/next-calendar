@@ -2,7 +2,7 @@
 import {
   ThemeProvider,
   createTheme,
-} from "@mui/material";
+} from '@mui/material';
 
 const theme = createTheme();
 
